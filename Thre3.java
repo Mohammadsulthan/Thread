@@ -7,7 +7,7 @@ public class Thre3
 	public static void main(String[] args) 
 	{
 		System.out.println(new Date());
-		System.out.println("before strat a class");
+		System.out.println("before start a class");
 		System.out.println("i told a kala getting a token:.....");
 		
 				Thread n=new Thread(new Runnable(
@@ -28,7 +28,7 @@ public class Thre3
 					}
 				},"kala");
 				n.start();
-				System.out.println("class strat 7-9 "+new Date());
+				System.out.println("class start 7-9 "+new Date());
 	}
 	static class vaccinationcenter
 	{
